@@ -27,3 +27,11 @@ Date/Time (which is converted into temporal features like hour of the day, day o
 4. Splitting the Data
 5. Train the model
 6. Interpret the results
+
+**WeatherPrediction_Version2** 
+## Error handling
+1. ValueError: The least populated class in y has only 1 member, which is too few
+   as there were some classes having only one row data which cannot be splitted to train and test data hence were dropped from the model to get the precision better.
+2. Precision is ill-defined: Use zero_division parameter to control this behavior.
+3. Recall is ill-defined: Use zero_division parameter to control this behavior.
+The above three warnings were handled in the **WeatherPrediction_Version2**
